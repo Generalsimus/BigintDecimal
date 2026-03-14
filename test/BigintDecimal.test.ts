@@ -1,3 +1,4 @@
+import { describe, expect, it } from "@jest/globals";
 import { BigintDecimal } from '../index';
 
 describe('BigintDecimal', () => {
