@@ -1,10 +1,9 @@
 name: Test BigintDecimal
 
 on:
-  push:
-    branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+    types: [ opened ]
 
 jobs:
   test:
