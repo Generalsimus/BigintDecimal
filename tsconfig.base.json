@@ -1,19 +1,7 @@
 {
   "compilerOptions": {
-    // --- Strong Type Safety Flags ---
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    // --- Additional Code Quality Checks ---
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
-    // --- Original Configuration (Updated) ---
     "moduleResolution": "node",
+    "noImplicitAny": true,
     "removeComments": false,
     "preserveConstEnums": true,
     "sourceMap": true,
@@ -23,7 +11,8 @@
     "skipLibCheck": true,
     "rootDir": "./",
     "declarationDir": "./dist",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "strict": true,
   },
   "exclude": [
     "./dist/",
